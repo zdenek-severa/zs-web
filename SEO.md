@@ -2,7 +2,7 @@
 
 ## Současný stav: pouze localhost
 
-Web není publikovaný. Na lokální verzi se generuje `noindex, nofollow` a `robots.txt` s `Disallow: /`. `sitemap.xml` je platné XML, ale zatím má prázdný seznam veřejných URL. Neodesílá tak do vyhledávačů adresy localhost ani smyšlenou doménu. Canonical adresy a JSON-LD s identifikátory webu se zapnou po nastavení skutečné domény.
+Na lokální verzi se generuje `noindex, nofollow` a `robots.txt` s `Disallow: /`. Lokální `sitemap.xml` je platné XML s prázdným seznamem veřejných URL. Neodesílá tak do vyhledávačů adresy localhost ani smyšlenou doménu. Veřejný produkční build na Netlify používá doménu z `netlify.toml` a zapíná canonical adresy, JSON-LD a sitemap všech obsahových stránek.
 
 ## Co je připravené
 
@@ -25,7 +25,7 @@ Web není publikovaný. Na lokální verzi se generuje `noindex, nofollow` a `ro
 7. Ověřte vlastnictví domény v Google Search Console. Volitelná proměnná `PUBLIC_GOOGLE_SITE_VERIFICATION` podporuje ověření pomocí HTML meta tagu; pro vlastnost typu Doména použijte DNS záznam podle Search Console.
 8. V Search Console odešlete `sitemap.xml` a použijte kontrolu URL na úvodu a vybraných detailech. Zde se také ověřuje skutečný stav indexace. Publikování sitemap ani validní HTML nezaručují zařazení nebo konkrétní pozici ve výsledcích hledání.
 
-Aktuálně nebyl nastaven hosting, provedené přesměrování ani odeslání do Search Console; web zůstává podle zadání lokální.
+Pro Netlify je v `netlify.toml` připravená produkční doména `https://zs-web.netlify.app/`. Produkční kontext povoluje indexaci; testovací kontexty ji zakazují. Místní vývoj je nadále neindexovatelný. Stav veřejného nasazení ověřujte na této adrese po dokončení buildu. Odeslání do Search Console zatím provedeno nebylo.
 
 ## Kontroly
 

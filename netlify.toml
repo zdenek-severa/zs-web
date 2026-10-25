@@ -1,0 +1,16 @@
+[build]
+  base = "."
+  command = "npm run build:production"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "24"
+  ASTRO_TELEMETRY_DISABLED = "1"
+  PUBLIC_SITE_URL = "https://zs-web.netlify.app"
+  PUBLIC_SITE_INDEXABLE = "false"
+
+[context.production.environment]
+  PUBLIC_SITE_INDEXABLE = "true"
+
+# Astro generates a separate HTML file for every route. No SPA fallback is needed:
+# unknown URLs must use Netlify's native 404 handling with dist/404.html.

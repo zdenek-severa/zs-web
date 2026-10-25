@@ -24,7 +24,7 @@ Kontrola vnitřních odkazů a souborů po sestavení: `node scripts/verify-buil
 
 ## SEO a indexace
 
-Postup a rozsah ověření jsou v [SEO.md](SEO.md). Prozatím je web pouze lokální: `robots.txt` zakazuje procházení, stránky mají `noindex` a sitemap nemá veřejné URL. Po doplnění `PUBLIC_SITE_URL` v `.env` a spuštění `npm run build:production` vznikne veřejná sitemap, canonical adresy a strukturovaná data. Vývojový server zůstává neindexovatelný i s nastavenou doménou. Hosting ani Search Console zatím nejsou nastavené.
+Postup a rozsah ověření jsou v [SEO.md](SEO.md). Místní vývoj: `robots.txt` zakazuje procházení, stránky mají `noindex` a sitemap nemá veřejné URL. Veřejná sitemap, canonical adresy a strukturovaná data vzniknou při `npm run build:production` s nastaveným `PUBLIC_SITE_URL`. Netlify tuto hodnotu nastavuje přes `netlify.toml`. Vývojový server zůstává neindexovatelný i s nastavenou doménou. Search Console zatím není nastavená.
 
 ## Obsah a nastavení
 
@@ -43,6 +43,14 @@ Inspirace používá RM Pro Light a Regular. CSS nyní odkazuje na stejné fonty
 
 Zdeněk Severa, IČO 03108040 — ověřeno přes veřejné API ARES. Telefon +420 724 955 557 a e-mail zdenek.severa@gmail.com zadal uživatel. Na webu nejsou uváděny další registrační údaje.
 
-Web je připravený lokálně; nebyl publikován na externí hosting.
+Místní vývoj používá Astro dev server. Nastavení veřejného nasazení na Netlify je uvedené níže.
+
+## Netlify
+
+`netlify.toml` v kořeni repozitáře nastavuje Node.js 24, sestavení `npm run build:production` a publikovanou složku `dist`. Kořen repozitáře už obsahuje `package.json`; v Netlify nezadávejte další podsložku `zs-web`.
+
+Produkční adresa je `https://zs-web.netlify.app/`. Produkční build má povolenou indexaci; Deploy Previews a branch deploys zůstávají `noindex`. Při změně finální domény aktualizujte `PUBLIC_SITE_URL` v konfiguraci. Lokální vývoj dál používá localhost a vypnutou indexaci.
+
+Netlify musí být propojené s tímto GitHub repozitářem a produkční větví `main`. Nový push pak spustí sestavení. Při ručním nahrávání publikujte obsah sestavené složky `dist`, nikoli zdrojový repozitář.
 
 # zs-web
