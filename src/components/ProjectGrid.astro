@@ -1,0 +1,12 @@
+---
+import { projects } from '../data/projects';
+---
+<section id="work" class="work-section">
+  <div class="section-heading"><h2>Vybrané projekty<span>({String(projects.length).padStart(2, '0')})</span></h2><span class="eyebrow">Architektura / Interiéry / Vizualizace</span></div>
+  <div class="project-grid">
+    {projects.map((project, index) => <a class:list={['project-card', { 'project-card--wide': index === 4 || index === 9 }]} href={`/work/${project.slug}/`}>
+      <div class="project-image"><img src={project.images[0]} alt={`${project.name} — architektonická vizualizace`} loading="lazy" decoding="async" width="1600" height="1100" /><span class="project-open" aria-hidden="true">↗</span></div>
+      <div class="project-caption"><h3>{project.name}</h3><span>{project.category.split(' · ')[1]}<span class="project-year">{project.year}</span></span></div>
+    </a>)}
+  </div>
+</section>

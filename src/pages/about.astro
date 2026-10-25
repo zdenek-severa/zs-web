@@ -1,0 +1,15 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="O mně — Zdeněk Severa | Architektura a vizualizace" description="Zdeněk Severa: architektonické návrhy, interiéry a jejich vizuální prezentace. Poznejte přístup k prostoru, světlu, materiálům a charakteru místa." image="/images/vila-peskova/02.webp" imageAlt="Vila Peškova — propojení domu a zahrady" pageType="AboutPage" active="about">
+  <section class="about-heading page-heading"><span class="eyebrow">About / Zdenek Severa</span><h1>Od představy<br />k prostoru.</h1><p>Architektura. Interiéry. Vizualizace.<br />Tři pohledy na jeden příběh.</p></section>
+  <div class="about-image"><img src="/images/vila-peskova/02.webp" alt="Vila Peškova — propojení domu a zahrady" fetchpriority="high" width="1800" height="1200" /></div>
+  <section class="about-copy"><span class="eyebrow">Způsob uvažování</span><div><h2>Světlo, materiál<br />a charakter místa.</h2><p>Jmenuji se Zdeněk Severa. Věnuji se architektonickým návrhům a jejich vizuální prezentaci. Zajímá mě, jak se myšlenka proměňuje v prostor — od prvního objemu až po atmosféru konkrétního místa.</p><p>Portfolio propojuje bydlení, veřejné stavby, administrativu i interiéry. Každý projekt je jinou odpovědí na otázku, jak může prostor vypadat a působit.</p><a class="text-link" href="/contact/">Pojďme probrat váš projekt <span aria-hidden="true">↗</span></a></div></section>
+</Layout>
+
+<style>
+  .about-heading h1,
+  .about-copy h2 {
+    font-size: var(--wordmark-size);
+  }
+</style>

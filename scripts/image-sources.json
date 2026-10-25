@@ -1,0 +1,154 @@
+[
+  {
+    "source": "MIKULČIN VRCH/01_MV_2023_11_14.jpg",
+    "target": "public/images/mikulcin-vrch/01.webp"
+  },
+  {
+    "source": "MIKULČIN VRCH/02_MV_2023_11_14.jpg",
+    "target": "public/images/mikulcin-vrch/02.webp"
+  },
+  {
+    "source": "MIKULČIN VRCH/03_MV_2023_11_14.jpg",
+    "target": "public/images/mikulcin-vrch/03.webp"
+  },
+  {
+    "source": "MIKULČIN VRCH/04_MV_2023_11_14.jpg",
+    "target": "public/images/mikulcin-vrch/04.webp"
+  },
+  {
+    "source": "vila PEŠKOVA/01_PESKOVA_2023_10_20.jpg",
+    "target": "public/images/vila-peskova/01.webp"
+  },
+  {
+    "source": "vila PEŠKOVA/02_PESKOVA_2023_10_20.jpg",
+    "target": "public/images/vila-peskova/02.webp"
+  },
+  {
+    "source": "vila PEŠKOVA/03_PESKOVA_2023_10_20.jpg",
+    "target": "public/images/vila-peskova/03.webp"
+  },
+  {
+    "source": "vila PEŠKOVA/04_PESKOVA_2023_10_20.jpg",
+    "target": "public/images/vila-peskova/04.webp"
+  },
+  {
+    "source": "vila PEŠKOVA/05_PESKOVA_2023_10_20.jpg",
+    "target": "public/images/vila-peskova/05.webp"
+  },
+  {
+    "source": "Ludvik_XIII/01_Hranční Zámeček_2_NP_LUDVIK_XIII_2025_10_24.jpg",
+    "target": "public/images/ludvik-xiii/01.webp"
+  },
+  {
+    "source": "Ludvik_XIII/02_Hranční Zámeček_2_NP_LUDVIK_XIII_2025_10_24.jpg",
+    "target": "public/images/ludvik-xiii/02.webp"
+  },
+  {
+    "source": "Ludvik_XIII/03_Hranční Zámeček_2_NP_LUDVIK_XIII_2025_10_24.jpg",
+    "target": "public/images/ludvik-xiii/03.webp"
+  },
+  {
+    "source": "DOMAMYSLICE/01_DOMAMYS_2022_11_04.jpg",
+    "target": "public/images/domamyslice/01.webp"
+  },
+  {
+    "source": "DOMAMYSLICE/02_DOMAMYS_2022_11_04.jpg",
+    "target": "public/images/domamyslice/02.webp"
+  },
+  {
+    "source": "DOMAMYSLICE/03_DOMAMYS_2022_11_04.jpg",
+    "target": "public/images/domamyslice/03.webp"
+  },
+  {
+    "source": "DOMAMYSLICE/04_DOMAMYS_2022_11_04.jpg",
+    "target": "public/images/domamyslice/04.webp"
+  },
+  {
+    "source": "DOMAMYSLICE/05_DOMAMYS_2022_11_04.jpg",
+    "target": "public/images/domamyslice/05.webp"
+  },
+  {
+    "source": "rICANY mUZEUM/01_FRONT_2022_02_04.jpg",
+    "target": "public/images/ricany-muzeum/01.webp"
+  },
+  {
+    "source": "rICANY mUZEUM/02_BIRD EYE_2022_02_04.jpg",
+    "target": "public/images/ricany-muzeum/02.webp"
+  },
+  {
+    "source": "Rybarka/01_Rybarka_2025_05_15.jpg",
+    "target": "public/images/rybarka/01.webp"
+  },
+  {
+    "source": "Rybarka/02_Rybarka_2025_04_30.jpg",
+    "target": "public/images/rybarka/02.webp"
+  },
+  {
+    "source": "Rybarka/02_Rybarka_2025_05_21.jpg",
+    "target": "public/images/rybarka/03.webp"
+  },
+  {
+    "source": "Rybarka/04_Rybarka_2025_05_19.jpg",
+    "target": "public/images/rybarka/04.webp"
+  },
+  {
+    "source": "SVRATKA SIDLO FIRMY/01_Svratka_MARS_2023_10_30.jpg",
+    "target": "public/images/svratka-sidlo/01.webp"
+  },
+  {
+    "source": "SVRATKA SIDLO FIRMY/01_Svratka_MARS_2023_11_27.jpg",
+    "target": "public/images/svratka-sidlo/02.webp"
+  },
+  {
+    "source": "SVRATKA SIDLO FIRMY/Firefly.png",
+    "target": "public/images/svratka-sidlo/03.webp"
+  },
+  {
+    "source": "SVRATKA UBYTOVANI/01_M_2023_07_27.jpg",
+    "target": "public/images/svratka-ubytovani/01.webp"
+  },
+  {
+    "source": "SVRATKA UBYTOVANI/02_M_2023_07_27.jpg",
+    "target": "public/images/svratka-ubytovani/02.webp"
+  },
+  {
+    "source": "SVRATKA UBYTOVANI/03_M_2023_07_27.jpg",
+    "target": "public/images/svratka-ubytovani/03.webp"
+  },
+  {
+    "source": "SVRATKA UBYTOVANI/04_M_2023_07_27.jpg",
+    "target": "public/images/svratka-ubytovani/04.webp"
+  },
+  {
+    "source": "SVRATKA UBYTOVANI/05_M_2023_07_27.jpg",
+    "target": "public/images/svratka-ubytovani/05.webp"
+  },
+  {
+    "source": "AUKLAN OBALKA/AK_COVER STAVBA_2023_03_10_A.png",
+    "target": "public/images/auklan/01.webp"
+  },
+  {
+    "source": "AUKLAN OBALKA/AK_COVER STAVBA_2023_03_10_B.png",
+    "target": "public/images/auklan/02.webp"
+  },
+  {
+    "source": "AUKLAN OBALKA/AUKLAN_Stavba_COVER_2023_03_09.png",
+    "target": "public/images/auklan/03.webp"
+  },
+  {
+    "source": "AUKLAN OBALKA/AUKLAN_Stavba_COVER_2023_03_099.png",
+    "target": "public/images/auklan/04.webp"
+  },
+  {
+    "source": "d1/00_JerexSidlo_2024_03_07.jpg",
+    "target": "public/images/jerex/01.webp"
+  },
+  {
+    "source": "d1/01_JerexSidlo_2024_03_07.jpg",
+    "target": "public/images/jerex/02.webp"
+  },
+  {
+    "source": "d1/02_JerexSidlo_2024_03_07.jpg",
+    "target": "public/images/jerex/03.webp"
+  }
+]

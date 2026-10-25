@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Slideshow from '../components/Slideshow';
+import ProjectGrid from '../components/ProjectGrid.astro';
+import { featuredSlides, projects } from '../data/projects';
+import { absoluteUrl } from '../lib/seo';
+const structuredData = [{ '@type': 'ItemList', '@id': absoluteUrl('/#projects'), name: 'Vybrané projekty', itemListElement: projects.map((project, index) => ({ '@type': 'ListItem', position: index + 1, name: project.name, url: absoluteUrl(`/work/${project.slug}/`) })) }];
+---
+<Layout overlay active="work" pageType="CollectionPage" structuredData={structuredData}>
+  <Slideshow slides={featuredSlides} client:load />
+  <section class="intro-section"><span class="eyebrow">Zdenek Severa / Portfolio</span><div><h1>Architektura začíná myšlenkou.<br />Obraz jí dává prostor.</h1><div class="intro-bottom"><p>Prostor, světlo a materiál. Architektonické návrhy a vizualizace, které propojují představu s místem.</p><a class="text-link" href="/about/">O mé práci <span aria-hidden="true">↗</span></a></div></div></section>
+  <ProjectGrid />
+</Layout>

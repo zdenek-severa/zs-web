@@ -1,0 +1,31 @@
+{
+  "name": "zs-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "build": "astro check && astro build && npm run validate",
+    "build:production": "node scripts/require-site.mjs && npm run build",
+    "validate": "npm run validate:html && node scripts/verify-build.mjs && node scripts/check-seo.mjs",
+    "validate:html": "html-validate \"dist/**/*.html\"",
+    "preview": "astro preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@astrojs/react": "latest",
+    "astro": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@astrojs/check": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "fast-xml-parser": "^5.11.2",
+    "fast-xml-validator": "^1.4.2",
+    "html-validate": "^11.17.0",
+    "htmlparser2": "^12.0.0",
+    "sharp": "latest",
+    "typescript": "latest"
+  }
+}
